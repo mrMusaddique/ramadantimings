@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;
+    
+}
+
+html,
+body {
+    height: 100%;   
+    width: 100%;
+    min-height: 185vh;
+    background: var(--background);
+    
+}
+
+:root {
+    --background: #eff2f9;
+    --foregorund: #fff;
+    --primary: #6a74c9;
+    --text-black: #484848;
+    --text-gray: #4f4f4f;
+    --boder: #e6e6e6;
+    --shadow: #b1b1b140;
+}
+
+.dark-theme-color {
+    --background: #0a112b;
+    --foregorund: #161f3e;
+    --primary: #6a74c9;
+    --text-black: #d0d0d0;
+    --text-gray: #d0d0d0;
+    --boder: #2e4080;
+    --shadow: #00000029;
+}
+
+nav {
+    height: 18vh;
+    width: 90vw;
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 5vw;
+    margin-top: vw;
+    background: linear-gradient(45deg, #00569a, transparent), url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dark-blue-ramadan-background-design-template-577b6b29a9893d53e73c0c0ae056176e_screen.jpg?ts=1679498869);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 7px var(--shadow);
+    position: relative;
+}
+
+/* .nav {
+    height: 7vw;
+    width: 40vw;
+    border: 2px solid black;
+
+} */
+.nav {
+    margin-top: 3vw;
+}
+
+.nav h1 {
+    font-size: 7vw;
+    padding-top: 0vw;
+    color: #fff;
+    
+}
+
+.nav h4 {
+    font-family: "Dancing Script", cursive;
+    font-size: 4vw;
+    padding-left: 50vw;
+    /* padding-top: 1vw; */
+    transform: rotate(-4deg);
+    color: var(--primary);
+}
+
+.box1 {
+    height: 80vw;
+    width: 90vw;
+    margin: 10vw 0 0 5vw;
+    /* background-color: rgb(175, 180, 184); */
+    background: var(--foregorund);
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px var(--shadow);
+    margin-bottom: 10vw;
+}
+
+/* .box2 {
+    height: 70vw;
+    width: 90vw;
+    margin: 10vw 0 0 5vw;
+    background-color: rgb(175, 180, 184);
+    border-radius: 10px;
+}
+.box3 {
+    height: 70vw;
+    width: 90vw;
+    margin: 10vw 0 0 5vw;
+    background-color: rgb(175, 180, 184);
+    border-radius: 10px;
+} */
+
+.box1 table {
+    width: 100%;
+    text-align: center;
+
+}
+
+.box1 h2 {
+    color: var(--primary);
+    text-transform: 'uppercase';
+    margin-bottom: 8px;
+    padding-top: 2vw;
+    padding-left: 3vw;
+}
+
+.box1 table tr th {
+    background: var(--primary);
+    padding: 1vw;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: 1px solid var(--boder);
+    color: #fff;
+    /* padding-top: 10px; */
+    gap: 10px;
+}
+
+.box1 table tr td {
+    background: var(--background);
+    padding: 2.5px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: 1px solid var(--boder);
+    color: var(--text-black);
+    cursor: pointer;
+    font-size: 10px;
+    /* gap: 10px; */
+    line-height: 3.5vw;
+}
+
+.darktheme {
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    margin-right: 85%;
+    margin-bottom: 30%;
+    /* margin-top: 10%; */
+    background: var(--primary);
+    border-radius: 50px;
+    display: flex;
+    /* padding-top: 1px; */
+    padding: px;
+    cursor: pointer;
+    justify-content: flex-start;
+    border: 2px solid var(--boder);
+}
+
+.darktheme:before {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    
+}
+
+.darktheme.active {
+    justify-content: flex-end;
+
+}
+
+.dua {
+    margin-top: 40px;
+    margin-left: 30vw;
+   
+}
+.dua a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.dua h6{
+ margin-left: 11.5vw;
+ font-weight: 300;
+ color: darkgray;
+}
+
+.ramadan-dua {
+    width: 100%;
+    margin-top: 10vw;
+}
+
+.ramadan-dua ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.ramadan-dua ul li {
+    background: var(--foregorund);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px var(--shadow);
+    margin-bottom: 20px;
+}
+
+.ramadan-dua ul li h4 {
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ramadan-dua ul li p {
+    color: var(--text-gray);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ramadan-dua ul li b {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: var(--text-black);
+}
+
+.ramadan-dua ul li p b{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black);
+    margin-bottom: 0;
+}
+
+.ramadan-dua ul li hr{
+  border: none;
+   border-bottom: 3px solid var(--boder); 
+   margin-bottom: 10px;
+}
+
+.darktheme{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    background: #eff2f9;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+footer h3{
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 20vw;
+    color: rgb(113, 109, 109);
+    padding-bottom: 30px;
+}
+
+footer span{
+    margin-left: 30vw;
+}
+
+
+footer #desk a{
+    text-decoration: none;
+}
+
+footer #desk i{
+    padding-left: 20vw;   
+}
+footer #desk h3{
+    padding-left: 24vw;
+}
+
